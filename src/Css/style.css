@@ -1,0 +1,72 @@
+body {
+    background-color: var(--primary-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: var(--secundary-color);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 50px;
+}
+
+.container .card-container .creator {
+    font-size: 10px;
+}
+
+span {
+    color: #000;
+}
+
+.container .card-container .text {
+    font-size: 10px;
+}
+
+.container .numbers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 1px solid var(--card-color);
+    padding-top: 10px;
+}
+
+.container .numbers .info .views {
+    position: relative;
+    right: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.container .numbers .info .counter {
+    position: relative;
+    right: 15px;
+    margin-left: 30px;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.container .numbers .info .views .counter {
+    font-weight: 700;
+}
